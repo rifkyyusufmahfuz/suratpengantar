@@ -1,0 +1,92 @@
+--changelog--
+08-06-2021
+
+- tambah views/pengguna carinama.php move code script carinama
+
+- fix head footer link dan script
+
+- ganti tampilan pengajuan dari div menjadi table
+
+09-06-2021
+- tambah file script.js ke assets/js
+- mengubah tampilan halaman menu utama pada view sidebar, navbar, footer
+
+10-06-2021
+- tambah script dan link untuk alert di head.php (belum fix)
+- set autoload libraries session
+- ubah function simpan pakai array
+- tambah kolom tanggal_pengajuan ke table pengajuan_surat
+- tambah fungsi input tanggal di function simpan
+- tambah time zone di config.php
+- tambah validasi input nik hanya angka min max length 16
+- tambah folder admin pada folder views/
+- tambah beberapa file head.php, footer.php, dll ke views/admin
+- tambah file home_admin ke views/admin
+- pindahkan file login.php ke folder views/
+- tambah fungsi login di model
+- fix login form
+- tambah fungsi login di controller
+- tambah controller baru dengan nama Akses_admin.php
+- tambah alert fungsi simpan (dashboard)
+- update autoload.php libraries
+- tambah file .htaccess di folder suratpengantar/
+- update config.php $config['index_page'] = '';
+- tambah kolom status_admin di table admin_sistem
+- login fix
+
+11-06-2021
+-- mengubah tampilan warna sidebar
+-- mengubah warna footer
+-- menghilangkan fitur pencarian
+-- menambahkan tanggal hari ini pada home_user
+-- menambahkan card dengan isi pada halaman home_user
+-- mengubah align button dari align="center" menjadi align="right" pada halaman pengajuan 
+
+- buat form modal untuk cari surat
+- buat file tampil_pengantar.php di pengguna/
+- tambah model dan controller untuk cari surat
+- tambah script bootstrap di head.php
+- buat file tanggal.php di helper/
+- update autoload helper tambah tanggal
+- buat file tampil_pengantar2.php di admin/
+- tambah function validasi_rt
+- tambah model lihat_data
+- tambah model get_all
+- tambah model get_validasi (ref aplpengantar admin, penduduk_m, validasi_m)
+- tambah datatables ke assets/
+- tambah link data tables ke head2.php
+- tambah link untuk ikon glyphicon ke head2.php (untuk ikon validasi dll)
+https://getbootstrap.com/docs/3.3/components/#glyphicons-how-to-use
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_glyphs&stacked=h
+
+12-06-2021
+- tambah function model dan controller untuk validasi rt rw
+- tambah function model riwayat validasi rt rw
+- tambah function model input validasi rt rw
+- menambahkan if else akses model rt rw untuk membedakan model
+- update tampil_pengantar2.php
+- remove ikon glyphicon. ganti pakai font awesome
+- update ikon sidebar2
+- update form login.php
+- buat file modal.php di folder admin/ untuk tampil data dan validasi
+- update sidebar2.php untuk riwayat validasi
+- update navbar untuk nama login
+- update sidebar2.php footer untuk nama login
+- remove sweet alert
+- update link head dan footer.php (pengguna)
+- fix combobox di pengajuan pengguna
+- remove limit di model cari surat pengantar (pengguna)
+- tambah FPDF ke application/third_party/
+- tambah tombol cetak surat di sidebar2.php
+
+
+
+
+
+
+
+
+
+
+
+
